@@ -6,11 +6,6 @@ import Tags from './tags'
 import 'tachyons'
 import globalcss from '../utils/global'
 
-// Fix for hooks
-import { setConfig } from 'react-hot-loader'
-
-setConfig({ pureSFC: true })
-
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
